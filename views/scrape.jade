@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  div#container
+   p Content has been scraped.
+   table
+     tr
+       th Tag
+       th Class
+       th ID
+       th Inline Styles
+     for item in data 
+      tr
+       td= item.name
+       td= item.class
+       td= item.id
+       td= item.inlineStyles

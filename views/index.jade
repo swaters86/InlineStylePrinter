@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  div#container
+   h1 #{title}
+   p This app will print out all of the inline styles that have been applied to elements on a page. 
+   form(id="scrape",method="post",action="/scrape") 
+    label What page do you want to scrape? 
+    input(type="text",name="url")
+    input(type="submit",value="submit")
+ 
+

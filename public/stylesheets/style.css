@@ -1,0 +1,35 @@
+body {
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+	font-size:100%;
+	line-height:1.2px
+}
+
+#container {
+	margin:0 auto;
+	width:900px;
+}
+
+table {
+	padding:10px;
+	border:1px #efefef solid;
+}
+
+th,td {
+	text-align:left;
+	padding-right:20px;
+}
+
+th {
+	background:#ddd;
+}
+
+tr:nth-child(even) {
+	background:#efefef;
+}
