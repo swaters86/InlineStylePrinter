@@ -3,10 +3,13 @@ extends layout
 block content
   div#container
    h1 #{title}
-   p This app will print out all of the inline styles that have been applied to elements on a page. 
-   form(id="scrape",method="post",action="/scrape") 
-    label What page do you want to scrape? 
-    input(type="text",name="url")
-    input(type="submit",value="submit")
+   p(id="intro-text") A simple app that will scrape a webpage and print out the inline styles for you! Just enter a valid <mark>website address</mark> and click on the submit button!
+   div(class="row")
+    form(id="scrape",method="post",action="/scrape")
+     div(class="form-group")  
+      div(class="col-md-10")
+       input(id="url",class="form-control",type="url",name="url",placeholder="http://www.example.com/")
+      div(class="col-md-2")
+       input(class="btn btn-default",type="submit",value="submit")
  
 

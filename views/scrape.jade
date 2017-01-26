@@ -2,13 +2,14 @@ extends layout
 
 block content
   div#container
-   p Content has been scraped.
-   table
+   p(id="success-message", class="lead text-center") This page has been scraped.
+   p(id="fail-message", class="lead text-center") Yikes! Something went wrong. Please try again.
+   table(id="results-table",class="table")
      tr
-       th Tag
-       th Class
-       th ID
-       th Inline Styles
+       th Tag(s)
+       th Class(s)
+       th ID(s)
+       th Inline Styles(s)
      for item in data 
       tr
        td= item.name

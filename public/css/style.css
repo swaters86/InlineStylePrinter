@@ -1,0 +1,66 @@
+body {
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+	font-size:100%;
+	line-height:1.2px
+}
+
+#container {
+	margin:0 auto;
+	width:900px;
+}
+
+table {
+	padding:10px;
+	border:1px #efefef solid;
+}
+
+th,td {
+	text-align:left;
+	padding-right:20px;
+}
+
+th {
+	background:#ddd;
+}
+
+tr:nth-child(even) {
+	background:#efefef;
+}
+
+
+#intro-text {
+	font-size: 1.8em;
+	line-height: 2em;
+	padding: 10px 0;
+}
+
+
+#results {
+	margin-top:50px;
+}
+
+#success-message {
+	visibility: hidden;
+	color: green;
+}
+
+#fail-message {
+	visibility: hidden;
+	color: red;
+}
+
+.table {
+	visibility: hidden;
+}
+
+
+.btn {
+	margin-left: -25px;
+}
