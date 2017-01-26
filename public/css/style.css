@@ -16,25 +16,6 @@ p {
 	width:900px;
 }
 
-table {
-	padding:10px;
-	border:1px #efefef solid;
-}
-
-th,td {
-	text-align:left;
-	padding-right:20px;
-}
-
-th {
-	background:#ddd;
-}
-
-tr:nth-child(even) {
-	background:#efefef;
-}
-
-
 #intro-text {
 	font-size: 1.8em;
 	line-height: 2em;
@@ -64,3 +45,23 @@ tr:nth-child(even) {
 .btn {
 	margin-left: -25px;
 }
+
+table {
+	padding:10px;
+	border:1px #efefef solid;
+}
+
+th,td {
+	text-align:left;
+	padding-right:20px;
+}
+
+th {
+	background:#ddd;
+}
+
+tr:nth-child(even) {
+	background:#efefef;
+}
+
+
